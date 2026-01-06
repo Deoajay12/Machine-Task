@@ -25,9 +25,10 @@ export default function Home({ users, error }) {
   }
 
   return (
+
     <Layout title="Dashboard | User Directory">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900 mb-4">User Directory</h1>
+        <h1 className="text-3xl font-bold text-white mb-4">User Directory</h1>
         <div className="max-w-md">
           <SearchInput onSearch={setSearchTerm} placeholder="Search by name or email" />
         </div>
