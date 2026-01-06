@@ -11,7 +11,7 @@ export default function Layout({ children, title = 'User Dashboard' }) {
 
             <NavBar />
 
-            <main className="flex-grow bg-[#8C62BC] py-8">
+            <main className="flex-grow bg-[#494153] py-8">
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                     {children}
                 </div>
